@@ -1,4 +1,3 @@
-== Solution
 # Install
 - gem install test-unit
 
