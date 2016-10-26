@@ -29,22 +29,25 @@
   - Government bonds are sorted by term when they are fetched
   - This sorting allows Benchmark and Spread to have simpler logic
   - Not sorting will break the code
-3. Test
-  - ruby test/bond_test.rb 
 
 # Challenge 1
 1. Execution
   - ruby benchmark.rb <input_file_name>
   - Example: ruby benchmark.rb sample_input.csv
-2. Test
-  - ruby test/benchmark_test.rb 
 
 # Challenge 2
 1. Execution
   - ruby spread.rb <input_file_name>
   - Example: ruby spread.rb sample_input.csv
-2. Test
+
+#Test
+1. Bond
+  - ruby test/bond_test.rb 
+2. Benchmark
+  - ruby test/benchmark_test.rb 
+2. Spread
   - ruby test/spread_test.rb
+
 
 # Improvements
 - Create a class for bonds[] or use ActiveRecord to dry up the code
